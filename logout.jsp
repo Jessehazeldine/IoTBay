@@ -9,9 +9,16 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Logout</title>
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/form.css">
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <form action="index.jsp"> 
+            <table class="table">         
+                <tr><td>Are you sure you want to logout?</td><td>
+                <tr><td><input type="submit" value="Logout"></tr></td>  
+            </table>
+        </form>
     </body>
 </html>
