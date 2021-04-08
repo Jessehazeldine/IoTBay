@@ -14,8 +14,9 @@
     </head>
     <body>
         <div id="bar">
-            IoTBay - non-logged in customer view
+            IoTBay
             <span id="links"> <a href="login.jsp">Login</a> | <a href="register.jsp">Register</a></span>
         </div>
+        <h1>non-logged in home page</h1>
     </body>
 </html>
