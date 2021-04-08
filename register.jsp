@@ -24,7 +24,6 @@
             <table class="table">
               <tr><td>Email</td><td><input type="text" name="email"/></td></tr>
               <tr><td>Phone Number </td><td><input type="text" name="ph"/></td></tr>
-              <%//customerID %>
               <tr><td>Password</td><td><input type="text" name="password"/></td></tr>
               <tr><td>Re-Type Password</td><td><input type="text" name="rePassword"/></td></tr>
               <tr><td>Terms of Service</td><td><input type="checkbox" name="tos" value="yes"/></td></tr>
@@ -33,3 +32,4 @@
         </form>
     </body>
 </html>
+
