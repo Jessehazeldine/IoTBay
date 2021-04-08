@@ -13,5 +13,6 @@
     </head>
     <body>
         <h1>Logged in home page</h1>
+        <span id="links"> <a href="accDetails.jsp">Account Details</a> | <a href="logout.jsp">Logout</a></span>
     </body>
 </html>
