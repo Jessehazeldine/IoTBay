@@ -22,10 +22,10 @@
         
         <form action="accDetails.jsp"> 
             <table class="table">
-              <tr><td>Email</td><td><input type="text" name="email"/></td></tr>
-              <tr><td>Phone Number </td><td><input type="text" name="ph"/></td></tr>
-              <tr><td>Password</td><td><input type="text" name="password"/></td></tr>
-              <tr><td>Re-Type Password</td><td><input type="text" name="rePassword"/></td></tr>
+              <tr><td>Email</td><td><input type="text" name="email" required="true"></td></tr>
+              <tr><td>Phone Number </td><td><input type="text" name="ph" required="true"></td></tr>
+              <tr><td>Password</td><td><input type="text" name="password" required="true"></td></tr>
+              <tr><td>Re-Type Password</td><td><input type="text" name="rePassword" required="true"></td></tr>
               <tr><td><input type="submit" value="submit"></tr></td>  
             </table>
         </form>
