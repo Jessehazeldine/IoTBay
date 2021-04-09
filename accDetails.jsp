@@ -23,7 +23,6 @@
            String password = request.getParameter("password");
            String rePassword = request.getParameter("rePassword");
            String ph = request.getParameter("ph");
-           String tos = request.getParameter("tos");
         %>
             <tr><td>Email: </td><td><%= email %></td></tr>
             <tr><td>Password: </td><td><%= password %></td></tr>
