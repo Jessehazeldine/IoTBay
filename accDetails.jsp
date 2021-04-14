@@ -21,7 +21,6 @@
         <%
            String email = request.getParameter("email");
            String password = request.getParameter("password");
-           String rePassword = request.getParameter("rePassword");
            String ph = request.getParameter("ph");
         %>
             <tr><td>Email: </td><td><%= email %></td></tr>
